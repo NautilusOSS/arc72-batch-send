@@ -1,4 +1,4 @@
-# ARC72 Batch SEnd
+# ARC72 Batch Send
 
 Send all holdings of collection to another wallet. Use at your own risk.
 
