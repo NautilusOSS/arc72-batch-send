@@ -14,7 +14,7 @@ const { CID, MN, ADDR_TO } = process.env;
 
 const { addr: addrFrom, sk: skFrom } = mnemonicToSecretKey(MN || "");
 const addrTo = ADDR_TO;
-const collectionId = CID;
+const collectionId = Number(CID);
 
 const ALGO_SERVER = "https://testnet-api.voi.nodly.io";
 const ALGO_INDEXER_SERVER = "https://testnet-idx.voi.nodly.io";
