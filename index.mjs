@@ -110,6 +110,7 @@ for (const slice of slices) {
     )
   ).map(({ obj }) => obj);
 
+  ci.setPaymentAmount(28500);
   ci.setEnableGroupResourceSharing(true);
   ci.setExtraTxns(buildP);
   const customR = await ci.custom();
