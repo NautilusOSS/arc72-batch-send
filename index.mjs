@@ -95,7 +95,7 @@ for (const token of tokens) {
 
 // split holdings into slices of 10
 const slices = [];
-const size = 12;
+const size = 11;
 for (let i = 0; i < holdings.length; i += size) {
   slices.push(holdings.slice(i, i + size));
 }
