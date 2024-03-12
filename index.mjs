@@ -93,6 +93,9 @@ for (const token of tokens) {
   }
 }
 
+// TODO determine if there is a payment
+
+// TODO add 1 if there is no payment
 // split holdings into slices of 10
 const slices = [];
 const size = 11;
@@ -110,6 +113,7 @@ for (const slice of slices) {
     )
   ).map(({ obj }) => obj);
 
+  // TODO use conditional payment based on avaialable balance
   ci.setPaymentAmount(28500);
   ci.setEnableGroupResourceSharing(true);
   ci.setExtraTxns(buildP);
